@@ -1,6 +1,6 @@
 <?php
 header("Content-Type: application/json");
-require_once("database.php");
+require_once("db.php");
 
 // Get the subjects
 $sql = "SELECT name, year FROM subjects";
